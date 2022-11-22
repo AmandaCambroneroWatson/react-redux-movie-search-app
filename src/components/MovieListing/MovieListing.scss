@@ -1,0 +1,17 @@
+@use "../../scss/" as *;
+
+.movie-list {
+    margin: 20px 0px;
+
+    h2 {
+        font-weight: 400;
+        padding-top: 100px;
+        padding-left: 30px;
+    }
+}
+
+.movie-container {
+    padding-left: 40px;
+    padding-right: 40px;
+
+}

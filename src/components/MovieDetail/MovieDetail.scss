@@ -1,0 +1,60 @@
+@use "../../scss/" as *;
+
+.movie-section {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    color: $txt-color;
+}
+.movie-rating {
+    margin-top: 20px;
+    color: $main-color;
+    display: flex;
+
+    span {
+        margin-right: 20px;
+    }
+}
+.movie-title {
+    padding-top: 50px;
+    font-size: 40px;
+    color: $txt-color;
+
+}
+.movie-plot {
+    margin-top: 20px;
+    padding: 10px;
+    line-height: 1.8rem;
+}
+
+.movie-info>div span:first-child {
+    padding: 10px 0px;
+    color: $txt-color;
+
+    width: 100px;
+    display: inline-block;
+}
+
+.movie-info>div span {
+    color: $main-color;
+
+    @include mobile {
+        font-size: 8px;
+    }
+}
+
+.fa-star {
+    color: #ff9e00;
+}
+
+.fa-thumbs-up {
+    color: #fafafa;
+}
+
+.fa-film {
+    color: #fafafa;
+}
+
+.fa-calendar {
+    color: #fafafa;
+}
